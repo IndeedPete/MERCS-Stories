@@ -1,0 +1,16 @@
+#include "cfg\functions.hpp"
+
+#include "cfg\notifications.hpp"
+#include "cfg\defines.hpp"
+
+#include "cfg\shop\dialogs.hpp"
+#include "cfg\shop\meta.hpp"
+#include "cfg\shop\missions.hpp"
+#include "cfg\shop\personnel.hpp"
+#include "cfg\shop\weapons.hpp"
+#include "cfg\shop\magazines.hpp"
+#include "cfg\shop\items.hpp"
+#include "cfg\shop\uniforms.hpp"
+#include "cfg\shop\campEnhancements.hpp"
+#include "cfg\shop\campVehicles.hpp"
+#include "cfg\shop\stocks.hpp"

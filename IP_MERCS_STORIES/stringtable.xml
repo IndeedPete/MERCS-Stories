@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="IP_MERCS_STORIES">
+	<Package name="Meta">
+		<Container name="CampaignAltis">
+			<Key ID="STR_IP_MERCS_STORIES_NAME">
+				<Original>M.E.R.C.S. Stories</Original>
+			</Key>
+			<Key ID="STR_IP_MERCS_STORIES_MOD_DESC">
+				<Original>&lt;br/&gt;&lt;br/&gt;</Original>
+			</Key>
+		</Container>
+		<Container name="Mission">
+		</Container>
+	</Package>
+</Project>

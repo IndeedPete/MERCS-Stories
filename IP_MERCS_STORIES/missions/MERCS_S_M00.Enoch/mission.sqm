@@ -1,0 +1,372 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=48;
+	};
+	class MarkerIDProvider
+	{
+		nextID=14;
+	};
+	class Camera
+	{
+		pos[]={8914.21,304.21902,2070.646};
+		dir[]={0.80246723,-0.11946724,-0.58471656};
+		up[]={0.09657447,0.99283087,-0.070368655};
+		aside[]={-0.58893454,1.2261444e-007,-0.8082552};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Characters_F",
+	"A3_Weapons_F",
+	"A3_Weapons_F_Ammoboxes"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=3;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=1646809;
+class ScenarioData
+{
+	author="IndeedPete";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2036;
+		month=11;
+		day=24;
+		hour=8;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.017999999;
+		forecastFogDecay=0.017999999;
+	};
+	class Entities
+	{
+		items=18;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={4282.9858,68.160004,10526.353};
+			name="marker_0";
+			text="Start / Landing";
+			type="mil_start";
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={9905.0771,180.84599,3891.3101};
+			name="marker_1";
+			text="Shooting Range";
+			type="mil_objective";
+			id=1;
+			atlOffset=-0.00042724609;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={4955.5801,354.22699,2148.8679};
+			name="marker_2";
+			text="LDF Camp";
+			type="mil_flag";
+			id=2;
+			atlOffset=-0.00033569336;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={5608.5825,251.45967,3799.5757};
+			name="marker_3";
+			text="LDF Camp";
+			type="mil_flag";
+			id=3;
+			atlOffset=-0.00033569336;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={568.849,441,1131.578};
+			name="marker_4";
+			text="Old Watchtower";
+			type="mil_objective";
+			id=4;
+			atlOffset=-0.00091552734;
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={6912.5591,291.88901,1094.447};
+			name="marker_5";
+			text="German Camp?";
+			type="mil_flag";
+			id=5;
+			atlOffset=-0.00033569336;
+		};
+		class Item6
+		{
+			dataType="Marker";
+			position[]={7352.564,109.52,2650.49};
+			name="marker_6";
+			text="Factoy";
+			type="mil_flag";
+			id=6;
+			atlOffset=-0.00064849854;
+		};
+		class Item7
+		{
+			dataType="Marker";
+			position[]={5284.3521,206.901,4755.5869};
+			name="marker_7";
+			text="Tank Range?";
+			type="mil_objective";
+			id=7;
+			atlOffset=1.5258789e-005;
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={2148.821,234.19438,5522.3237};
+			name="marker_8";
+			text="Tank Range?";
+			type="mil_objective";
+			id=8;
+			atlOffset=1.5258789e-005;
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={8157.4731,43,10784.78};
+			name="marker_9";
+			text="Start / Landing Alternative";
+			type="mil_start";
+			id=9;
+		};
+		class Item10
+		{
+			dataType="Marker";
+			position[]={7887.0879,150.52499,9692.6924};
+			name="marker_10";
+			text="LDF Arty Base";
+			type="mil_flag";
+			id=10;
+			atlOffset=-0.00028991699;
+		};
+		class Item11
+		{
+			dataType="Marker";
+			position[]={9832.6143,46.582001,8063.6138};
+			name="marker_11";
+			text="Bomb Range?";
+			type="mil_objective";
+			id=11;
+			atlOffset=-0.00043106079;
+		};
+		class Item12
+		{
+			dataType="Marker";
+			position[]={11137.6,183.19901,2485.394};
+			name="marker_12";
+			text="POI";
+			type="mil_objective";
+			id=12;
+			atlOffset=3.0517578e-005;
+		};
+		class Item13
+		{
+			dataType="Marker";
+			position[]={9820.083,40.330002,8457.9639};
+			name="marker_13";
+			text="Destroyed City";
+			type="mil_objective";
+			id=13;
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={8923.2236,303.33499,2050.4651};
+			name="marker_14";
+			text="PMC Camp?";
+			type="mil_flag";
+			id=14;
+			atlOffset=-0.0002746582;
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={1662.9482,199.51003,3710.6528};
+			name="marker_15";
+			text="POI";
+			type="mil_objective";
+			id=15;
+			atlOffset=3.0517578e-005;
+		};
+		class Item16
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8917.6709,302.34055,2069.5339};
+						angles[]={0,2.2259057,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						init="this setVariable [""IP_ShopBox"", IP_Terminal]; [] call IP_fnc_shopInit; 1000000 call IP_fnc_addMoney;";
+						name="IP_Main";
+						isPlayer=1;
+						class Inventory
+						{
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+						};
+					};
+					id=26;
+					type="B_Story_Protagonist_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=25;
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8919.3213,303.38675,2067.4431};
+				angles[]={0.095713861,0,6.2559929};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this addAction [""Shop"", {[] call IP_fnc_openShop}];";
+				name="IP_Terminal";
+			};
+			id=27;
+			type="B_supplyCrate_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+	};
+};
