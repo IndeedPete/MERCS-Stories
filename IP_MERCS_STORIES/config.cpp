@@ -65,7 +65,12 @@ class CfgMainMenuSpotlight
 
 class CfgPatches
 {
-	#include "patches.hpp"
+	#include "cfg\patches.hpp"
+};
+
+class CfgIdentities
+{
+	#include "cfg\identities.hpp"
 };
 
 class CfgVehicles
@@ -89,12 +94,12 @@ class CfgVehicles
 	//#include "holders.hpp"
 	
 	// Men
-	#include "men.hpp"
+	#include "cfg\men.hpp"
 };
 
 class CfgWeapons 
 {	
 	//#include "headgear.hpp"	
-	#include "uniforms.hpp"
+	#include "cfg\uniforms.hpp"
 	//#include "weapons.hpp"
 };
