@@ -68,6 +68,19 @@ class CfgPatches
 	#include "cfg\patches.hpp"
 };
 
+class CfgFactionClasses
+{
+	class IP_MERCS
+	{
+		displayName = "Mercs"; 
+		flag = "\IP_MERCS_STORIES\icon.paa";
+		icon = "\IP_MERCS_STORIES\icon.paa";
+		priority = 1;
+		scope = 2;
+		side = 1;
+	};
+};
+
 class CfgIdentities
 {
 	#include "cfg\identities.hpp"
