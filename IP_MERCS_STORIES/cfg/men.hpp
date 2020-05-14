@@ -98,6 +98,34 @@ class IP_MERCS_Dummy_Modern_Woodland_Black_Pants_Vest: IP_MERCS_Dummy_Modern_Woo
 	uniformClass = "IP_U_B_CombatUniform_MERCS_Modern_Woodland_Black_Pants_Rolled";
 };
 
+class IP_MERCS_Main_F: B_Soldier_F
+{
+	attendant = 1;
+	author = authorValue;
+	backpack = "";
+	displayName = "Walker";
+	engineer = 1;
+	faction = "IP_MERCS";
+	hiddenSelections[] = {"Camo","Insignia"};
+	hiddenSelectionsTextures[] = {"\IP_MERCS_STORIES\txt\men\clothing1_MERCS_Black_co.paa"};
+	items[] = {FirstAidKit};
+	linkedItems[] = {default_linkedItems};
+	magazines[] = {};
+	model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+	respawnItems[] = {FirstAidKit};
+	respawnLinkedItems[] = {default_linkedItems};
+	respawnMagazines[] = {};
+	respawnWeapons[] = {Throw,Put};
+	scope = 2;
+	uniformClass = "IP_U_B_CombatUniform_MERCS_Modern_Black";
+	weapons[] = {Throw,Put};
+
+	class EventHandlers
+	{
+		init = "(_this select 0) setIdentity 'IP_MERCS_Walker';";
+	};
+};
+
 class IP_MERCS_Leader_F: B_Officer_F
 {
 	author = authorValue;
@@ -121,5 +149,31 @@ class IP_MERCS_Leader_F: B_Officer_F
 	class EventHandlers
 	{
 		init = "(_this select 0) setIdentity 'IP_MERCS_Salih';";
+	};
+};
+
+class IP_MERCS_Second_F: B_Officer_F
+{
+	author = authorValue;
+	backpack = "";
+	displayName = "Van Zeeland";
+	faction = "IP_MERCS";
+	hiddenSelections[] = {"Camo","Insignia"};
+	hiddenSelectionsTextures[] = {"\IP_MERCS_STORIES\txt\men\ig_guerrilla_6_1_mercs_m81_black_co.paa"};
+	items[] = {FirstAidKit};
+	linkedItems[] = {default_linkedItems};
+	magazines[] = {};
+	model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
+	respawnItems[] = {FirstAidKit};
+	respawnLinkedItems[] = {default_linkedItems};
+	respawnMagazines[] = {};
+	respawnWeapons[] = {Throw,Put};
+	scope = 2;
+	uniformClass = "IP_U_B_Irregular_3_MERCS_Classic_Woodland_Black";
+	weapons[] = {Throw,Put};
+
+	class EventHandlers
+	{
+		init = "(_this select 0) setIdentity 'IP_MERCS_Zeeland';";
 	};
 };

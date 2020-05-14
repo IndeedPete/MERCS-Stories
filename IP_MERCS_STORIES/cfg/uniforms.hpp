@@ -2,6 +2,7 @@
 class UniformItem;
 class U_I_CombatUniform;
 class U_I_CombatUniform_shortsleeve;
+class U_BG_Guerrilla_6_1;
 class U_B_CombatUniform_mcam;
 class U_B_CombatUniform_mcam_vest;
 class U_B_CombatUniform_mcam_tshirt;
@@ -41,6 +42,23 @@ class IP_U_B_CombatUniform_MERCS_Classic_Woodland_Rolled: U_I_CombatUniform_shor
 		type = 801;
 		uniformClass = "IP_MERCS_Dummy_Classic_Woodland_Vest";
 		uniformModel = "-";
+	};
+};
+
+class IP_U_B_Irregular_3_MERCS_Classic_Woodland_Black: U_BG_Guerrilla_6_1 
+{
+	author = authorValue;
+	displayName = "ION Combat Pants Classic (Woodland) and Green Pullover";
+	hiddenSelectionsTextures[] = {"\IP_MERCS_STORIES\txt\men\ig_guerrilla_6_1_mercs_m81_black_co.paa"};
+	picture = "\IP_MERCS_STORIES\txt\men\ui\icon_u_g_guerrilla_6_1_mercs_m81_black_ca.paa";
+	
+	class ItemInfo: UniformItem 
+	{
+		containerClass = "Supply30";
+		hiddenSelections[] = {"camo"};
+		mass = 30;
+		uniformModel = "-";
+		uniformClass = "IP_MERCS_Second_F";
 	};
 };
 

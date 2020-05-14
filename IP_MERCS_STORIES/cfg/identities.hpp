@@ -15,3 +15,12 @@ class IP_MERCS_Walker
 	speaker = "male11eng";
 	pitch = 1.00;
 };
+
+class IP_MERCS_Zeeland
+{
+	name = "Leo Van Zeeland";
+	face = "WhiteHead_18";
+	glasses = "none";
+	speaker = "male02gre";
+	pitch = 1.00;
+};

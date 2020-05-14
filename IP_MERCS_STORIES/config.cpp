@@ -21,6 +21,11 @@
 #define factionName $STR_IP_KSK_TROPIC_FACTION_NAME
 #define authorValue "IndeedPete"
 
+class CfgPatches
+{
+	#include "cfg\patches.hpp"
+};
+
 class CfgMods
 {
 	class IP_MERCS_STORIES
@@ -61,11 +66,6 @@ class CfgMainMenuSpotlight
 		actionText = $STR_A3_RscDisplayMain_Spotlight_Play; // Text displayed in top left corner of on-hover white frame
 		condition = "true"; // Condition for showing the spotlight
 	};
-};
-
-class CfgPatches
-{
-	#include "cfg\patches.hpp"
 };
 
 class CfgFactionClasses
@@ -115,4 +115,14 @@ class CfgWeapons
 	//#include "headgear.hpp"	
 	#include "cfg\uniforms.hpp"
 	//#include "weapons.hpp"
+};
+
+class CfgSounds 
+{
+	//#include "cfg\sounds.hpp"
+};
+
+class CfgFunctions
+{
+	//#include "cfg\functions.hpp"
 };
