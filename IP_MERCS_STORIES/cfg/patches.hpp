@@ -15,8 +15,10 @@ class IP_MERCS_STORIES
 		"IP_MERCS_Dummy_Modern_Woodland_Black_Pants",
 		"IP_MERCS_Dummy_Modern_Woodland_Black_Pants_Vest",
 		"IP_MERCS_Main_F",
+		"IP_MERCS_Roommate_F",
 		"IP_MERCS_Leader_F",
-		"IP_MERCS_Second_F"
+		"IP_MERCS_Second_F",
+		"IP_MERCS_MRAP_02_Black_F"
 	};
 	weapons[] = 
 	{
@@ -42,6 +44,7 @@ class IP_MERCS_STORIES
 		"A3_Weapons_F",
 		"A3_Characters_F_Beta",
 		"A3_Characters_F_Bootcamp",
+		"A3_Soft_F",
 		"IP_KSK_MISSIONS"
 	};
 	author = authorValue;

@@ -1,5 +1,6 @@
 // Uniform Dummies
 class B_Soldier_F;
+class B_Soldier_AR_F;
 class B_Officer_F;
 
 class IP_MERCS_Dummy_Classic_Woodland: B_Soldier_F
@@ -103,7 +104,7 @@ class IP_MERCS_Main_F: B_Soldier_F
 	attendant = 1;
 	author = authorValue;
 	backpack = "";
-	displayName = "Walker";
+	displayName = "Greene";
 	engineer = 1;
 	faction = "IP_MERCS";
 	hiddenSelections[] = {"Camo","Insignia"};
@@ -122,7 +123,7 @@ class IP_MERCS_Main_F: B_Soldier_F
 
 	class EventHandlers
 	{
-		init = "(_this select 0) setIdentity 'IP_MERCS_Walker';";
+		init = "(_this select 0) setIdentity 'IP_MERCS_Main';";
 	};
 };
 
@@ -148,7 +149,7 @@ class IP_MERCS_Leader_F: B_Officer_F
 
 	class EventHandlers
 	{
-		init = "(_this select 0) setIdentity 'IP_MERCS_Salih';";
+		init = "(_this select 0) setIdentity 'IP_MERCS_Leader';";
 	};
 };
 
@@ -174,6 +175,31 @@ class IP_MERCS_Second_F: B_Officer_F
 
 	class EventHandlers
 	{
-		init = "(_this select 0) setIdentity 'IP_MERCS_Zeeland';";
+		init = "(_this select 0) setIdentity 'IP_MERCS_Second';";
+	};
+};
+
+class IP_MERCS_Roommate_F: B_Soldier_AR_F
+{
+	author = authorValue;
+	displayName = "Sanchez";
+	faction = "IP_MERCS";
+	hiddenSelections[] = {"Camo","Insignia"};
+	hiddenSelectionsTextures[] = {"\IP_MERCS_STORIES\txt\men\clothing1_MERCS_Woodland_Black_Pants_co.paa"};
+	items[] = {FirstAidKit};
+	linkedItems[] = {default_linkedItems};
+	magazines[] = {};
+	model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+	respawnItems[] = {FirstAidKit};
+	respawnLinkedItems[] = {default_linkedItems};
+	respawnMagazines[] = {};
+	respawnWeapons[] = {Throw,Put};
+	scope = 2;
+	uniformClass = "IP_U_B_CombatUniform_MERCS_Modern_Woodland_Black_Pants_Rolled";
+	weapons[] = {Throw,Put};
+
+	class EventHandlers
+	{
+		init = "(_this select 0) setIdentity 'IP_MERCS_Roommate';";
 	};
 };

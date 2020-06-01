@@ -101,7 +101,7 @@ class CfgVehicles
 	//#include "backpacks.hpp"
 	
 	// Cars
-	//#include "cars.hpp"
+	#include "cfg\cars.hpp"
 	
 	// Holders
 	//#include "holders.hpp"
