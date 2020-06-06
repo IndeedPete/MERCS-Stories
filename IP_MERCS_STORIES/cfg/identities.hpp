@@ -1,6 +1,8 @@
 class IP_MERCS_Main
 {
 	name = "Jackson Greene";
+	firstName = "Jackson";
+	lastName = "Greene";
 	face = "WhiteHead_27";
 	glasses = "none";
 	speaker = "male11eng";
