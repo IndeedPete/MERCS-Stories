@@ -35,3 +35,12 @@ class IP_MERCS_Roommate
 	speaker = "male03gre";
 	pitch = 1.00;
 };
+
+class IP_MERCS_KSK_Agent
+{
+	name = "Hagen";
+	face = "GreekHead_A3_04";
+	glasses = "none";
+	speaker = "Male01ENG";
+	pitch = 1;
+};

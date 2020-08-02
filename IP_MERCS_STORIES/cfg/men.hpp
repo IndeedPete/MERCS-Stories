@@ -2,6 +2,7 @@
 class B_Soldier_F;
 class B_Soldier_AR_F;
 class B_Officer_F;
+class B_Sharpshooter_F;
 
 class IP_MERCS_Dummy_Classic_Woodland: B_Soldier_F
 {
@@ -201,5 +202,30 @@ class IP_MERCS_Roommate_F: B_Soldier_AR_F
 	class EventHandlers
 	{
 		init = "(_this select 0) setIdentity 'IP_MERCS_Roommate';";
+	};
+};
+
+class IP_MERCS_KSK_Agent_F: B_Sharpshooter_F
+{
+	author = authorValue;
+	displayName = "Hagen";
+	faction = "IP_MERCS";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\a3\Characters_F_Enoch\Uniforms\Data\Gorka_01_Black_CO.paa"};
+	items[] = {FirstAidKit};
+	linkedItems[] = {default_linkedItems};
+	magazines[] = {};
+	model = "\a3\Characters_F_Enoch\Uniforms\Gorka_01_F.p3d";
+	respawnItems[] = {FirstAidKit};
+	respawnLinkedItems[] = {default_linkedItems};
+	respawnMagazines[] = {};
+	respawnWeapons[] = {Throw,Put};
+	scope = 2;
+	uniformClass = "U_O_R_Gorka_01_Black_F";
+	weapons[] = {Throw,Put};
+
+	class EventHandlers
+	{
+		init = "(_this select 0) setIdentity 'IP_MERCS_KSK_Agent';";
 	};
 };

@@ -18,7 +18,8 @@ class IP_MERCS_STORIES
 		"IP_MERCS_Roommate_F",
 		"IP_MERCS_Leader_F",
 		"IP_MERCS_Second_F",
-		"IP_MERCS_MRAP_02_Black_F"
+		"IP_MERCS_MRAP_02_Black_F",
+		"IP_MERCS_KSK_Agent_F"
 	};
 	weapons[] = 
 	{
